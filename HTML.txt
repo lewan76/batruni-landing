@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>باتروني – محرر الباترونات</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      text-align: center;
+      padding: 30px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #007b7f;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>مرحباً بك في تطبيق باتروني 🧵</h1>
+
+  <img src="images/batruni-promo.png" alt="صورة ترويجية لتطبيق باتروني">
+
+  <p>
+    تطبيق ذكي لتحويل الصور إلى باترونات قابلة للطباعة والخياطة. يدعم إدخال المقاسات، 
+    التعرف على نوع القماش، ويوفر واجهة سهلة لمصممي الأزياء العرب والعالميين.
+  </p>
+
+</body>
+</html>
