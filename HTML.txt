@@ -1,40 +1,126 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>باتروني – محرر الباترونات</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f8f8f8;
-      color: #333;
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      padding: 30px 20px;
       text-align: center;
-      padding: 30px;
     }
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
     }
 
-    h1 {
-      color: #007b7f;
+    header p {
+      font-size: 1.2em;
+      color: #dcdcdc;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .features {
+      display: grid;
+      gap: 20px;
+    }
+
+    .feature {
+      background-color: #1e1e1e;
+      border-left: 5px solid #4CAF50;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      color: #4CAF50;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      text-decoration: none;
+      color: white;
+      background-color: #4CAF50;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0f2027;
+      color: #aaaaaa;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8em;
+      }
+
+      .feature {
+        padding: 15px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1>مرحباً بك في تطبيق باتروني 🧵</h1>
+  <header>
+    <h1>باتروني – محرر الباترونات 🧵✂️</h1>
+    <p>تطبيق ذكي لتحويل الصور إلى باترونات قابلة للطباعة والخياطة</p>
+  </header>
 
-  <img src="images/batruni-promo.png" alt="صورة ترويجية لتطبيق باتروني">
+  <section>
+    <div class="features">
+      <div class="feature">
+        <h3>✏️ رسم الباترون خطوة بخطوة</h3>
+        <p>أدوات ذكية تسهّل على الخياطين تصميم الباترونات بدقة عالية.</p>
+      </div>
+      <div class="feature">
+        <h3>📏 إدخال المقاسات حسب الطول والعرض</h3>
+        <p>يمكن للمستخدم إدخال أبعاده الشخصية لتوليد باترون دقيق.</p>
+      </div>
+      <div class="feature">
+        <h3>🧶 التعرف على نوع خامة القماش</h3>
+        <p>اقتراحات تلقائية حسب نوع القماش لتحسين النتيجة النهائية.</p>
+      </div>
+      <div class="feature">
+        <h3>📱 واجهة سهلة الاستخدام على Android</h3>
+        <p>واجهة عربية أنيقة وسهلة تجعل تجربة المستخدم ممتعة وسلسة.</p>
+      </div>
+    </div>
 
-  <p>
-    تطبيق ذكي لتحويل الصور إلى باترونات قابلة للطباعة والخياطة. يدعم إدخال المقاسات، 
-    التعرف على نوع القماش، ويوفر واجهة سهلة لمصممي الأزياء العرب والعالميين.
-  </p>
+    <div class="cta">
+      <a href="#">🔜 تحميل التطبيق (قريبًا)</a>
+    </div>
+  </section>
+
+  <footer>
+    تم تطويره بكل حب 💖 بواسطة نوال بوعظمة © 2025
+  </footer>
 
 </body>
 </html>
